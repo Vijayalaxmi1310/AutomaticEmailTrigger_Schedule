@@ -30,7 +30,7 @@ jobs:
 
           to: harish.bolishetty@ideabytes.com
 
-          from: GitHub Actions
+          from: ${{ secrets.GMAIL_USERNAME }}
 
           secure: true
 
